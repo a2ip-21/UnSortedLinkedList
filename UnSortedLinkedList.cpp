@@ -2,56 +2,6 @@
 #include <cmath>
 
 using namespace std;
-
-/*
- 
-9 <- 8 <- NULL
-
-size = 5
-
-0 []
-1 []
-2 []
-3 []
-4 []
-
-
-
-
-Array
-- Unsorted
-- Sorted
-
-Linked List
-- UnSorted
-- Sorted
-
-
-UnSortedLinkedList()
-~UnSortedLinkedList()
-
-int LengthIs();
-
-bool IsFull();
-bool IsEmpty();
-
-void InsertItem(); -- 
-void DeleteItem(); -- 
-void RetrieveItem(); -- 
-
-void MakeEmpty();
-
-bool IsLastItem();
-void GetNextItem();
-void ResetList();
-
-void Display();
-
-NULL <- [5|A13] <- [4|A12]
-
-[value|next address] <- [value|next address] <- [value|next address] <- [value|next address]
-*/
-
 template <class T>
 struct Node {
     T item;
@@ -224,5 +174,5 @@ int main()
     myList.Display();
     cout << endl;
     cout << myList.SumItem();
-    //cout << myList.LengthIs();
+    cout << myList.LengthIs();
 }
